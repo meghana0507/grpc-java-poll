@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1426382612628
+Build-Jdk: 1.7.0_75
+Built-By: Meghana
+Bundle-Description: Netty is an asynchronous event-driven network applic
+ ation framework for    rapid development of maintainable high performan
+ ce protocol servers and    clients.
+Bundle-DocURL: http://netty.io/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Netty/Handler
+Bundle-SymbolicName: io.netty.handler
+Bundle-Vendor: The Netty Project
+Bundle-Version: 4.1.0.Beta5-SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: io.netty.handler.ipfilter;uses:="io.netty.channel";versi
+ on="4.1.0.Beta5-SNAPSHOT",io.netty.handler.logging;uses:="io.netty.buff
+ er,io.netty.channel,io.netty.util.internal.logging";version="4.1.0.Beta
+ 5-SNAPSHOT",io.netty.handler.ssl;uses:="io.netty.buffer,io.netty.channe
+ l,io.netty.handler.codec,io.netty.util,io.netty.util.concurrent,javax.c
+ rypto,javax.net.ssl";version="4.1.0.Beta5-SNAPSHOT",io.netty.handler.ss
+ l.util;uses:="javax.net.ssl";version="4.1.0.Beta5-SNAPSHOT",io.netty.ha
+ ndler.stream;uses:="io.netty.buffer,io.netty.channel";version="4.1.0.Be
+ ta5-SNAPSHOT",io.netty.handler.timeout;uses:="io.netty.channel";version
+ ="4.1.0.Beta5-SNAPSHOT",io.netty.handler.traffic;uses:="io.netty.channe
+ l,io.netty.util.concurrent";version="4.1.0.Beta5-SNAPSHOT"
+Import-Package: sun.security.util;resolution:=optional,sun.security.x509
+ ;resolution:=optional,org.eclipse.jetty.npn;version="[1,2)";resolution:
+ =optional,org.eclipse.jetty.alpn;version="[1,2)";resolution:=optional,i
+ o.netty.buffer;version="[4.1,5)",io.netty.channel;version="[4.1,5)",io.
+ netty.handler.codec;version="[4.1,5)",io.netty.handler.codec.base64;ver
+ sion="[4.1,5)",io.netty.util;version="[4.1,5)",io.netty.util.concurrent
+ ;version="[4.1,5)",io.netty.util.internal;version="[4.1,5)",io.netty.ut
+ il.internal.logging;version="[4.1,5)",javax.crypto,javax.crypto.spec,ja
+ vax.net.ssl,javax.security.auth.x500,javax.security.cert,org.apache.tom
+ cat.jni;version="[1.1,2)";resolution:=optional,org.bouncycastle.asn1.x5
+ 00;version="[1.50,2)";resolution:=optional,org.bouncycastle.cert;versio
+ n="[1.50,2)";resolution:=optional,org.bouncycastle.cert.jcajce;version=
+ "[1.50,2)";resolution:=optional,org.bouncycastle.jce.provider;version="
+ [1.50,2)";resolution:=optional,org.bouncycastle.operator;version="[1.50
+ ,2)";resolution:=optional,org.bouncycastle.operator.jcajce;version="[1.
+ 50,2)";resolution:=optional,sun.nio.ch;resolution:=optional
+Tool: Bnd-2.1.0.20130426-122213

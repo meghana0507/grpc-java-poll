@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1426382583734
+Build-Jdk: 1.7.0_75
+Built-By: Meghana
+Bundle-Description: Netty is an asynchronous event-driven network applic
+ ation framework for    rapid development of maintainable high performan
+ ce protocol servers and    clients.
+Bundle-DocURL: http://netty.io/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Netty/Transport
+Bundle-SymbolicName: io.netty.transport
+Bundle-Vendor: The Netty Project
+Bundle-Version: 4.1.0.Beta5-SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: io.netty.bootstrap;uses:="io.netty.channel,io.netty.reso
+ lver,io.netty.util";version="4.1.0.Beta5-SNAPSHOT",io.netty.channel;use
+ s:="io.netty.bootstrap,io.netty.buffer,io.netty.util,io.netty.util.conc
+ urrent";version="4.1.0.Beta5-SNAPSHOT",io.netty.channel.embedded;uses:=
+ "io.netty.channel";version="4.1.0.Beta5-SNAPSHOT",io.netty.channel.grou
+ p;uses:="io.netty.channel,io.netty.util.concurrent";version="4.1.0.Beta
+ 5-SNAPSHOT",io.netty.channel.local;uses:="io.netty.channel";version="4.
+ 1.0.Beta5-SNAPSHOT",io.netty.channel.nio;uses:="io.netty.buffer,io.nett
+ y.channel,io.netty.util,io.netty.util.concurrent";version="4.1.0.Beta5-
+ SNAPSHOT",io.netty.channel.oio;uses:="io.netty.buffer,io.netty.channel"
+ ;version="4.1.0.Beta5-SNAPSHOT",io.netty.channel.socket;uses:="io.netty
+ .buffer,io.netty.channel,io.netty.util";version="4.1.0.Beta5-SNAPSHOT",
+ io.netty.channel.socket.nio;uses:="io.netty.buffer,io.netty.channel,io.
+ netty.channel.nio,io.netty.channel.socket";version="4.1.0.Beta5-SNAPSHO
+ T",io.netty.channel.socket.oio;uses:="io.netty.buffer,io.netty.channel,
+ io.netty.channel.oio,io.netty.channel.socket";version="4.1.0.Beta5-SNAP
+ SHOT"
+Import-Package: io.netty.buffer;version="[4.1,5)",io.netty.resolver;vers
+ ion="[4.1,5)",io.netty.util;version="[4.1,5)",io.netty.util.concurrent;
+ version="[4.1,5)",io.netty.util.internal;version="[4.1,5)",io.netty.uti
+ l.internal.logging;version="[4.1,5)",org.eclipse.jetty.npn;version="[1,
+ 2)";resolution:=optional,sun.nio.ch;resolution:=optional,org.eclipse.je
+ tty.alpn;version="[1,2)";resolution:=optional
+Tool: Bnd-2.1.0.20130426-122213

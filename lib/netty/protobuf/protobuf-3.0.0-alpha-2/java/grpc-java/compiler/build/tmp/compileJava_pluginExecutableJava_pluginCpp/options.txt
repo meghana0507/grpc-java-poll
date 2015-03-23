@@ -1,0 +1,9 @@
+-x
+c++
+-std=c++11
+-c
+-I
+/home/ubuntu/grpc-java/lib/netty/protobuf/protobuf-3.0.0-alpha-2/java/grpc-java/compiler/src/java_plugin/headers
+/home/ubuntu/grpc-java/lib/netty/protobuf/protobuf-3.0.0-alpha-2/java/grpc-java/compiler/src/java_plugin/cpp/java_plugin.cpp
+-o
+/home/ubuntu/grpc-java/lib/netty/protobuf/protobuf-3.0.0-alpha-2/java/grpc-java/compiler/build/objs/java_pluginExecutable/java_pluginCpp/45hircqgzfiu7zr555n3zicho/java_plugin.o

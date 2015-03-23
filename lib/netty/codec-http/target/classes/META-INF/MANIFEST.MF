@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1426382626064
+Build-Jdk: 1.7.0_75
+Built-By: Meghana
+Bundle-Description: Netty is an asynchronous event-driven network applic
+ ation framework for    rapid development of maintainable high performan
+ ce protocol servers and    clients.
+Bundle-DocURL: http://netty.io/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Netty/Codec/HTTP
+Bundle-SymbolicName: io.netty.codec-http
+Bundle-Vendor: The Netty Project
+Bundle-Version: 4.1.0.Beta5-SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: io.netty.handler.codec.http;uses:="io.netty.buffer,io.ne
+ tty.channel,io.netty.channel.embedded,io.netty.handler.codec,io.netty.h
+ andler.codec.compression,io.netty.handler.stream,io.netty.util";version
+ ="4.1.0.Beta5-SNAPSHOT",io.netty.handler.codec.http.cors;uses:="io.nett
+ y.channel,io.netty.handler.codec.http";version="4.1.0.Beta5-SNAPSHOT",i
+ o.netty.handler.codec.http.multipart;uses:="io.netty.buffer,io.netty.ch
+ annel,io.netty.handler.codec,io.netty.handler.codec.http,io.netty.handl
+ er.stream,io.netty.util";version="4.1.0.Beta5-SNAPSHOT",io.netty.handle
+ r.codec.http.websocketx;uses:="io.netty.buffer,io.netty.channel,io.nett
+ y.handler.codec,io.netty.handler.codec.http,io.netty.util,io.netty.util
+ .internal.logging";version="4.1.0.Beta5-SNAPSHOT",io.netty.handler.code
+ c.rtsp;uses:="io.netty.buffer,io.netty.channel,io.netty.handler.codec,i
+ o.netty.handler.codec.http";version="4.1.0.Beta5-SNAPSHOT",io.netty.han
+ dler.codec.spdy;uses:="io.netty.buffer,io.netty.channel,io.netty.handle
+ r.codec,io.netty.handler.codec.http,io.netty.util,javax.net.ssl";versio
+ n="4.1.0.Beta5-SNAPSHOT"
+Import-Package: com.jcraft.jzlib;resolution:=optional,io.netty.buffer;ve
+ rsion="[4.1,5)";resolution:=optional,io.netty.channel;version="[4.1,5)"
+ ,io.netty.channel.embedded;version="[4.1,5)",io.netty.handler.codec;ver
+ sion="[4.1,5)",io.netty.handler.codec.base64;version="[4.1,5)",io.netty
+ .handler.codec.compression;version="[4.1,5)",io.netty.handler.ssl;versi
+ on="[4.1,5)";resolution:=optional,io.netty.handler.stream;version="[4.1
+ ,5)";resolution:=optional,io.netty.util;version="[4.1,5)";resolution:=o
+ ptional,io.netty.util.concurrent;version="[4.1,5)";resolution:=optional
+ ,io.netty.util.internal;version="[4.1,5)";resolution:=optional,io.netty
+ .util.internal.logging;version="[4.1,5)";resolution:=optional,javax.net
+ .ssl,org.eclipse.jetty.alpn;version="[1,2)";resolution:=optional,org.ec
+ lipse.jetty.npn;version="[1,2)";resolution:=optional,sun.nio.ch;resolut
+ ion:=optional
+Tool: Bnd-2.1.0.20130426-122213

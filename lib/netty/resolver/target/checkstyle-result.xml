@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.6">
+<file name="C:\Users\Meghana\Documents\GitHub\grpc-java\lib\netty\resolver\src\main\java\io\netty\resolver\DefaultNameResolver.java">
+</file>
+<file name="C:\Users\Meghana\Documents\GitHub\grpc-java\lib\netty\resolver\src\main\java\io\netty\resolver\DefaultNameResolverGroup.java">
+</file>
+<file name="C:\Users\Meghana\Documents\GitHub\grpc-java\lib\netty\resolver\src\main\java\io\netty\resolver\NameResolver.java">
+</file>
+<file name="C:\Users\Meghana\Documents\GitHub\grpc-java\lib\netty\resolver\src\main\java\io\netty\resolver\NameResolverGroup.java">
+</file>
+<file name="C:\Users\Meghana\Documents\GitHub\grpc-java\lib\netty\resolver\src\main\java\io\netty\resolver\NoopNameResolver.java">
+</file>
+<file name="C:\Users\Meghana\Documents\GitHub\grpc-java\lib\netty\resolver\src\main\java\io\netty\resolver\NoopNameResolverGroup.java">
+</file>
+<file name="C:\Users\Meghana\Documents\GitHub\grpc-java\lib\netty\resolver\src\main\java\io\netty\resolver\package-info.java">
+</file>
+<file name="C:\Users\Meghana\Documents\GitHub\grpc-java\lib\netty\resolver\src\main\java\io\netty\resolver\SimpleNameResolver.java">
+</file>
+</checkstyle>
