@@ -1,0 +1,7 @@
+-o
+/home/ubuntu/grpc-java-poll/compiler/build/binaries/java_pluginExecutable/java_plugin
+/home/ubuntu/grpc-java-poll/compiler/build/objs/java_pluginExecutable/java_pluginCpp/ahd0rjix0whgtbqzu13htsx3x/java_generator.o
+/home/ubuntu/grpc-java-poll/compiler/build/objs/java_pluginExecutable/java_pluginCpp/5p3q2j2vfxwtpz6xorvmcelll/java_plugin.o
+/home/ubuntu/grpc-java-poll/compiler/build/objs/java_pluginExecutable/java_pluginCpp/9eho9ax65m2hb77hnq0zwgzco/java_generator.o
+-lprotoc
+-lprotobuf

@@ -1,0 +1,9 @@
+-x
+c++
+-std=c++11
+-c
+-I
+/home/ubuntu/grpc-java-poll/compiler/src/java_plugin/headers
+/home/ubuntu/grpc-java-poll/compiler/src/java_plugin/cpp/java_plugin.cpp
+-o
+/home/ubuntu/grpc-java-poll/compiler/build/objs/java_pluginExecutable/java_pluginCpp/5p3q2j2vfxwtpz6xorvmcelll/java_plugin.o

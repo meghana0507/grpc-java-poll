@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.grpc.auth.ClientAuthInterceptorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2015-03-22T20:21:22" hostname="ip-172-31-14-233" time="0.379">
+  <properties/>
+  <testcase name="testWithOAuth2Credential" classname="io.grpc.auth.ClientAuthInterceptorTests" time="0.335"/>
+  <testcase name="testCopyCredentialToHeaders" classname="io.grpc.auth.ClientAuthInterceptorTests" time="0.019"/>
+  <testcase name="testCredentialsThrows" classname="io.grpc.auth.ClientAuthInterceptorTests" time="0.02"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
